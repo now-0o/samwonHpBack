@@ -41,6 +41,7 @@ app.post("/send-mail", async (req, res) => {
     text: `
       보낸 사람: ${name}
       회사: ${company}
+      이메일: ${email}
       연락처: ${contact}
       카테고리: ${categoryContent}
       문의사항: ${content}
